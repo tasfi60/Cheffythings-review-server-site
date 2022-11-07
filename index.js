@@ -7,6 +7,10 @@ app.get('/',(req,res) => {
     res.send('Simple node Server is Running');
 });
 
+
+//user: dbuser1
+//password : YLOKpUFrCh5dFsCO
+
 app.use(cors());
 
 app.listen(port, () =>{
