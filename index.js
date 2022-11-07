@@ -5,4 +5,8 @@ const port = process.env.PORT || 5000;
 
 app.get('/',(req,res) => {
     res.send('Simple node Server is Running');
+});
+
+app.listen(port, () =>{
+    console.log(`Simple node server is running on ${port}`);
 })
